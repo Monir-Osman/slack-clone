@@ -8,7 +8,6 @@ function SidebarOption({ Icon, title, id, addChannelOption }) {
 
   const selectChannel = () => {
     if (id) {
-      console.log(id);
       navigate(`/room/${id}`);
     } else {
       navigate(title);
